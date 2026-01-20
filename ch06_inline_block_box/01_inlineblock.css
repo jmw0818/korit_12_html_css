@@ -1,0 +1,26 @@
+ul > li {
+  margin-right: 2em;
+  /* padding-right: 2em; */
+  display: inline-block;
+  background-color: aliceblue;
+  width: 65px;
+  text-align: center;
+}
+
+ul > div> ul > li {
+ background-color: gray;
+}
+
+div {
+  background-color: rgb(95,95,95);
+}
+ul {
+  background: #000;;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+ul ul {
+  /* margin-left: 0px; */
+  padding-left: 0px;
+}

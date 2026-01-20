@@ -1,0 +1,16 @@
+/* li:not(:last-child) {
+  text-decoration: underline;
+} */
+
+/* li:not(:first-child) {
+  text-decoration: overline;
+} */
+
+/* 텍스트 자체에 줄을 그리는 방법
+그런데 li 요소는 block인데?
+ */
+
+li:not(:last-child) {
+  /* border: 1px solid black; */
+  border-bottom: 1px solid black;
+}
