@@ -1,0 +1,28 @@
+.hi > div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+div.hi {
+  width: 320px;
+  height: 320px;
+  background-color: none;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+div.orange {
+  background-color: orange;
+
+}
+
+div.red {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border: none;
+}
